@@ -1,6 +1,7 @@
 pipeline {
   agent any
-  tools ejsode-11.0.0
+  tools {
+    NodeJS 'node-14.9.0'
   }
 
   options {
